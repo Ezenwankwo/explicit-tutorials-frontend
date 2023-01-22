@@ -1,10 +1,15 @@
 <template>
     <div class="element">
-        <AppHeader />
-        <slot />
-        <AppFooter />
+        <AppAffiliateRegister />
     </div>
 </template>
+
+
+<script>
+definePageMeta({
+    layout: "default",
+});
+</script>
 
 
 <style>

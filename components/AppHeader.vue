@@ -26,7 +26,7 @@
             </ul>
         </div>
         <div class="navbar-end">
-            <a class="btn">Register Now</a>
+            <NuxtLink to="/register" class="btn">Register Now</NuxtLink>
         </div>
     </div>
 </template>
