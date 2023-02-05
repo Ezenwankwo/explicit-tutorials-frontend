@@ -2,9 +2,12 @@
     <div>
         <AppHero />
         <AppBenefits />
-        <AppFeaturedCourses />
+        <AppFeaturedClasses />
+        <AppBlankSection />
         <AppSuccessStories />
+        <AppBlankSection />
         <AppContactFaq />
+        <AppBlankSection />
     </div>
 </template>
 
@@ -13,4 +16,3 @@ definePageMeta({
   layout: "external",
 });
 </script>
-

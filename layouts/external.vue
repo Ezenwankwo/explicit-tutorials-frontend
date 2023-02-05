@@ -1,5 +1,5 @@
 <template>
-    <div class="element">
+    <div class="bg-home">
         <AppHeader />
         <slot />
         <AppFooter />
@@ -8,10 +8,8 @@
 
 
 <style>
-.element {
-    background-image: url(~/assets/img/register.svg);
-    background-position: right 0px top 0px;
-    background-size: 40%;
+.bg-home {
+    background-image: url(~/assets/img/home.svg);
     background-repeat: no-repeat;
 }
 </style>

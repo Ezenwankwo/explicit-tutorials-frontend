@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-100">
+    <div class="container navbar px-4 lg:px-12">
         <div class="navbar-start">
             <div class="dropdown">
                 <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -10,23 +10,27 @@
                     </svg>
                 </label>
                 <ul tabindex="0"
-                    class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                    class="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52">
                     <li><NuxtLink to="/classes">Classes</NuxtLink></li>
                     <li><NuxtLink to="/pricing">Pricing</NuxtLink></li>
                     <li><NuxtLink to="/contact">Contact</NuxtLink></li>
                 </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-xl">EOT</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-                <li><NuxtLink to="/classes">Classes</NuxtLink></li>
-                <li><NuxtLink to="/pricing">Pricing</NuxtLink></li>
-                <li><NuxtLink to="/contact">Contact</NuxtLink></li>
-            </ul>
+            <NuxtLink to="/">
+                <img src="~/assets/img/logo.png" alt="logo">
+            </NuxtLink>
+            <div class="navbar-center hidden lg:flex ml-4">
+                <ul class="menu menu-horizontal px-1 text-white">
+                    <li><NuxtLink to="/">Home</NuxtLink></li>
+                    <li><NuxtLink to="/classes">Classes</NuxtLink></li>
+                    <li><NuxtLink to="/pricing">Pricing</NuxtLink></li>
+                    <li><NuxtLink to="/contact">Contact</NuxtLink></li>
+                </ul>
+            </div>
         </div>
         <div class="navbar-end">
-            <NuxtLink to="/register" class="btn">Register Now</NuxtLink>
+            <NuxtLink to="/register" class="btn btn-primary capitalize">Register Now</NuxtLink>
+            <NuxtLink to="/login" class="btn btn-primary btn-outline capitalize ml-4">Affiliate Login</NuxtLink>
         </div>
     </div>
 </template>
