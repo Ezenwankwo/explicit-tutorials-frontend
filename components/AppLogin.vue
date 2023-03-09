@@ -1,16 +1,16 @@
 <template>
-    <div class="container mx-auto p-4 md:px-12">
-        <AppBackButton />
+    <div class="container mx-auto p-8 md:px-12">
+        <!--<AppBackButton />-->
         <div>
-            <h2 class="text-4xl text-[#020EB0] font-bold mt-8">
+            <h2 class="text-2xl md:text-4xl text-[#020EB0] font-bold mt-8">
                 Affiliate Login
             </h2>
         </div>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 mb-8">
             <div class="sm:col-span-1 md:col-span-1 lg:col-span-2">
                 <div class="flex flex-col">
                     <div class="py-6">
-                        <p class="text-medium text-gray-700">
+                        <p class="text-medium leading-6 text-gray-700">
                             Kindly input your correct <span class="text-[#FB9139]">Affiliate login</span> details to onboard.
                         </p>
                     </div>
@@ -19,7 +19,7 @@
 
             </div>
             <div class="sm:col-span-1 md:col-span-1 lg:col-span-3">
-                <form class="flex flex-col rounded-lg w-2/3 mx-auto">
+                <form class="flex flex-col rounded-lg md:w-2/3 mx-auto">
                     <div class="form-control w-full mb-4">
                         <label class="label">
                             <span class="label-text">Email</span>
@@ -35,7 +35,9 @@
                     <div class="text-xs text-[#FB9139] mb-8">
                         <NuxtLink to="/">Forgot password?</NuxtLink>
                     </div>
-                    <button class="btn w-2/3 mx-auto capitalize bg-[#020EB0] border-[#020EB0] hover:bg-blue-700 hover:border-blue-700 focus:bg-blue-700 focus:border-blue-700 mb-4">Login</button>
+                    <NuxtLink to="/dashboard" class="btn w-2/3 mx-auto bg-[#020EB0] border-[#020EB0] capitalize hover:bg-blue-700 hover:border-blue-700 focus:bg-blue-700 focus:border-blue-700 mb-4">
+                        <button>Login</button>
+                    </NuxtLink>
                     <div class="text-xs mx-auto">You dont have an account? <NuxtLink to="/affiliate" class="text-[#136FFB]">Sign up here.</NuxtLink></div>
                 </form>
 

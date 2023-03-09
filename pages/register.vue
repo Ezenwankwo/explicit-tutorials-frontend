@@ -1,13 +1,13 @@
 <template>
-    <div class="element">
+    <div class="bg-white">
         <AppStudentRegister />
     </div>
 </template>
 
 
-<script>
+<script setup>
 definePageMeta({
-    layout: "default",
+    layout: "external",
 });
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full md:w-1/3 px-4 mb-8">
+    <div class="w-full md:w-1/3 md:px-4 mb-4 md:mb-8">
         <div class="py-8">
             <div class="bg-white rounded-bl-3xl rounded-tr-3xl shadow-lg">
                 <img src="~/assets/img/course.png" class="rounded-tr-3xl" alt="jamb class">

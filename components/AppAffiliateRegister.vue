@@ -1,12 +1,12 @@
 <template>
-    <div class="container mx-auto p-4 md:px-12">
-        <AppBackButton />
+    <div class="container mx-auto p-8 md:px-12">
+        <!--<AppBackButton />-->
         <div>
-            <h2 class="text-4xl text-[#020EB0] font-bold mt-8">
-                Become an Affiliate and earn<br> on every referal you made.
+            <h2 class="text-2xl md:text-4xl text-[#020EB0] font-bold mt-8">
+                Become an Affiliate and earn<br> on every referral you made.
             </h2>
         </div>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-x-8">
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-x-8 mb-8">
             <div class="sm:col-span-1 md:col-span-1 lg:col-span-2">
                 <div class="flex flex-col">
                     <div class="py-6">
@@ -20,7 +20,7 @@
 
             </div>
             <div class="sm:col-span-1 md:col-span-1 lg:col-span-3">
-                <form class="flex flex-col rounded-lg w-2/3 mx-auto">
+                <form class="flex flex-col rounded-lg md:w-2/3 mx-auto">
                     <div class="form-control w-full mb-4">
                         <label class="label">
                             <span class="label-text">Full Name</span>

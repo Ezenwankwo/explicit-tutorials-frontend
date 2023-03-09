@@ -1,5 +1,5 @@
 <template>
-    <div class="element">
+    <div class="bg-white">
         <AppLogin />
     </div>
 </template>
@@ -7,7 +7,7 @@
 
 <script>
 definePageMeta({
-    layout: "default",
+    layout: "external",
 });
 </script>
 

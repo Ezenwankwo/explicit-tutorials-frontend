@@ -1,10 +1,10 @@
 <template>
     <div class="bg-blue-50 py-12">
-        <div class="container mx-auto">
-            <div class="flex flex-col w-full lg:flex-row">
+        <div class="container mx-auto px-8">
+            <div class="flex flex-wrap flex-wrap-reverse w-full lg:flex-row">
                 <div class="grid flex-grow justify-center">
-                    <h2 class="text-4xl font-bold">Ace Your Exams At<br> One Sitting</h2>
-                    <p>Join thousands of fellow knowledge<br> enthusiasts and subscribe to
+                    <h2 class="text-2xl md:text-4xl font-bold">Ace Your Exams At<br class="hidden md:block"> One Sitting</h2>
+                    <p class="py-8 md:py-0">Join thousands of fellow knowledge<br> enthusiasts and subscribe to
                         our weekly<br> newsletter for content alerts, research tips, and<br> more.
                     </p>
                     <div class="form-control w-full max-w-xs">
@@ -16,10 +16,10 @@
                 </div>
                 <div class="divider lg:divider-horizontal"></div>
                 <div class="grid flex-grow justify-center">
-                    <h2 class="text-4xl font-bold">Frequently Asked<br> Questions</h2>
+                    <h2 class="text-2xl md:text-4xl font-bold">Frequently Asked<br class="hidden md:block"> Questions</h2>
                     <div class="py-6">
                         <div tabindex="0"
-                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2">
+                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-4">
                             <div class="collapse-title text-lg font-medium">
                                 How can i become an affiliate?
                             </div>
@@ -31,7 +31,7 @@
                             </div>
                         </div>
                         <div tabindex="0"
-                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2">
+                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-4">
                             <div class="collapse-title text-lg font-medium">
                                 How can i register as a student?
                             </div>
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                         <div tabindex="0"
-                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2">
+                            class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-4">
                             <div class="collapse-title text-lg font-medium">
                                 How can i pay for the courses?
                             </div>
@@ -58,10 +58,6 @@
                     <div class="text-center text-blue-700">
                         <a class="link link-hover">View all</a>
                         <Icon name="bi:caret-right-fill" />
-                    </div>
-                    <div class="text-center mt-8">
-                        <span>Can’t find what you’re looking for?</span>
-                        <NuxtLink to="/contact" class="text-blue-700 ml-4"> Contact Us</NuxtLink>
                     </div>
                 </div>
             </div>

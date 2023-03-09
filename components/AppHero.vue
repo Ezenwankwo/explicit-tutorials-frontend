@@ -1,9 +1,9 @@
 <template>
-    <div class="hero min-h-screen">
-        <div class="container mx-auto px-4 lg:px-12 columns-10 py-8 md:py-12 grid lg:grid-cols-12">
-            <div class="mt-12 col-span-7">
-                <h1 class="text-6xl font-bold">Ace Your Exams <br>At One Sitting</h1>
-                <p class="py-6 text-lg">Learn at your convinience with the best<br>
+    <div class="md:hero min-h-screen bg-white">
+        <div class="container mx-auto lg:px-12 columns-10 p-8 md:py-12 grid lg:grid-cols-12">
+            <div class="mt-8 col-span-7">
+                <h1 class="text-4xl md:text-6xl font-bold text-[#1A1919]">Ace Your Exams <br>At One Sitting</h1>
+                <p class="py-12 text-lg">Learn at your convinience with the best<br>
                      online tutors for JAMB, POST-UTME<br> and 100 levels courses</p>
                 <NuxtLink to="/register" class="btn btn-primary capitalize">Register Now</NuxtLink>
                 <NuxtLink to="/affiliate" class="btn btn-outline btn-primary capitalize ml-4">Become An Affiliate</NuxtLink>
@@ -22,7 +22,8 @@
                     </div>
                 </div>
             </div>
-            <img src="~/assets/img/hero.png" class="object-fit col-span-5" alt="hero image" />
+            <img src="~/assets/img/hero.png" class="hidden md:block object-fit col-span-5" alt="hero image" />
         </div>
+        <img src="~/assets/img/hero.png" class="block md:hidden" alt="hero image" />
     </div>
 </template>
