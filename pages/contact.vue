@@ -1,9 +1,9 @@
 <template>
-  <div class="container mx-auto py-12 bg-white">
-    <div class="isolate bg-white px-6 lg:px-8">
+  <div class="container mx-auto py-12 bg-white text-[#1A1919]">
+    <div class="isolate bg-white px-4 lg:px-8">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-2xl md:text-4xl font-bold text-center text-gray-700 mb-4">Contact Us</h2>
-        <p class="text-medium leading-6 text-gray-700">
+        <h2 class="text-2xl md:text-4xl font-bold text-center text-[#1A1919] mb-4">Contact Us</h2>
+        <p class="text-medium leading-6 text-[#1A1919]">
           Let's talk about your needs.
         </p>
       </div>

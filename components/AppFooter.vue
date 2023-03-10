@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer container p-10 bg-[#161723]">
+    <footer class="footer container p-4 bg-[#161723]">
         <div>
             <span class="text-xl font-bold text-white">EOT</span>
             <a class="link link-hover text-[#AFAFAF]">About us</a>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto p-8 md:px-12">
+    <div class="container mx-auto p-4 md:px-12 text-[#1A1919]">
         <!--<AppBackButton />-->
         <div>
             <h2 class="text-2xl md:text-4xl text-[#020EB0] font-bold mt-8">

@@ -1,6 +1,6 @@
 <template>
     <div class="bg-blue-50 py-12">
-        <div class="container mx-auto px-8">
+        <div class="container mx-auto px-4 text-[#1A1919]">
             <div class="flex flex-wrap flex-wrap-reverse w-full lg:flex-row">
                 <div class="grid flex-grow justify-center">
                     <h2 class="text-2xl md:text-4xl font-bold">Ace Your Exams At<br class="hidden md:block"> One Sitting</h2>

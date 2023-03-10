@@ -1,16 +1,16 @@
 <template>
-    <div class="container mx-auto p-8 md:px-12">
+    <div class="container mx-auto p-4 md:px-12 text-[#1A1919]">
         <!--<AppBackButton />-->
         <div>
             <h2 class="text-2xl md:text-4xl text-[#020EB0] font-bold mt-8">
-                Ace Your Exams At One Sitting<br> with Expilicit online tutorials.
+                Ace Your Exams At One Sitting<br class="hidden md:block"> with Expilicit online tutorials.
             </h2>
         </div>
         <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-x-8 mb-8">
             <div class="sm:col-span-1 md:col-span-1 lg:col-span-2">
                 <div class="flex flex-col">
                     <div class="py-6">
-                        <p class="text-medium leading-6 text-gray-700">
+                        <p class="text-medium leading-6 text-[#1A1919]">
                             As a <span class="text-[#FB9139]">Student preparing for exams</span>, Explicit Online
                             tutorial is
                             designed to make learning easy anywhere you are, with success quaranteed.
